@@ -1,16 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.javacore.algorithms.arrays;
 
 import java.util.Random;
 
-/**
- *
- * @author Admin
- */
 public class ArrayUtils {
     private static Random rnd = new Random();
     public static int MAX_ARRAY_CAP = 50;
