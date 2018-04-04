@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class StringReaderDemo {
     public static void main(String[] args)
     {
-        String fileName = "res/text.txt";
+        String fileName = "res/ddd.ddd";
         try(Scanner in = new Scanner(new File(fileName)))
         {
             while(in.hasNextLine())
