@@ -21,6 +21,17 @@ public class SortArrayDemo {
             System.out.println("Array is sorted");
         }
 
+        {
+            System.out.println("Shuffling...");
+            Integer[] data = ArrayUtils.createRandomArray(-100, 100);
+            System.out.println(Arrays.toString(data));
+            ArrayUtils.quickSort(data);
+            System.out.println(Arrays.toString(data));
+            ArrayUtils.shuffle(data);
+            System.out.println(Arrays.toString(data));
+
+        }
+
     }
 
 }
